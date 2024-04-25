@@ -1,9 +1,3 @@
-<!doctype html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
 <div class="group has-pw-reset" id="login-wrapper" style="margin: 45px auto; min-height: 460px; color: rgb(51, 51, 51); font-family: &quot;Open Sans&quot;, helvetica, arial, sans-serif; opacity: 1; visibility: visible;">
 <div class="wrapper">
 <div id="content-container">
